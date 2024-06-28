@@ -24,8 +24,7 @@ https://docs.docker.com/get-docker/
 
 The image has been primarily tested on Ubuntu Linux as Host OS.
 
-`docker pull ppgcourseub/ppg2024:2406-r01`
-
+`docker pull ppgcourseub/ppg2024:v1
 This will take a while, depending on the speed of your internet connection.
 
 After it's finished, you should see the downloaded image listed using this:
