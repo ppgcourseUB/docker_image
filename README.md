@@ -36,10 +36,10 @@ After it's finished, you should see the downloaded image listed using this:
 
 ### 3. Run a container from the downloaded image (for the first time)
 
-`docker run -it --name=container_name 9c539d570554 /bin/bash` 
+`docker run -it --name=container_name c851f55bb7f9 /bin/bash` 
 
 > [!IMPORTANT]
-> The string ‘9c539d570554’ is the “ID” of the image you got at step 1. **This ID may be different on your computer**.
+> The string ‘c851f55bb7f9’ is the “ID” of the image you got at step 1. **This ID may be different on your computer**.
 > Check the correct ID on the listing from the `docker images` command. Also, the expression after '--name=' is
 > the name of the new container. You can replace it with any other name you prefer.
 
@@ -89,16 +89,16 @@ If you want to use this configuration, replace the initial 'docker run...' comma
 
 * On Linux:
 
-`docker run -it –name=container_name -v /home/username/ppgdata:/ppgdata 9c539d570554 /bin/bash`
+`docker run -it –name=container_name -v /home/username/ppgdata:/ppgdata c851f55bb7f9 /bin/bash`
 
 * On Mac:
 
-`docker run -it –name=container_name v /Users/username/ppgdata:/ppgdata 9c539d570554 /bin/bash`
+`docker run -it –name=container_name v /Users/username/ppgdata:/ppgdata c851f55bb7f9 /bin/bash`
 
 ...where '/home/username/ppgdata' or '/Users/username/ppgdata' is the host directory you want to 'share' with the conatiner (replace it with the directory you wish to use).
 
 > [!IMPORTANT]
-> The string ‘9c539d570554’ is the "ID" of the image you got at the step 1.
+> The string ‘c851f55bb7f9’ is the "ID" of the image you got at the step 1.
 > **This ID may be different on your computer**. Check the ID on the listing from the ‘docker images’ command.
 
 > [!IMPORTANT]
