@@ -120,9 +120,7 @@ This is the preferred way we will be using at the computer lab sessions to share
 
 To directly recuperate the files with results from the container:
 
-```
-docker cp CONTAINER_ID:/PATH_TO_THE_CONTAINER_FOLDER   /PATH_TO_/YOUR_LOCAL_FOLDER/ 
-```
+`docker cp CONTAINER_ID:/PATH_TO_THE_CONTAINER_FOLDER   /PATH_TO_/YOUR_LOCAL_FOLDER/`
 
 To stop a container:
 
