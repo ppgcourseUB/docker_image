@@ -95,7 +95,7 @@ If you want to use this configuration, replace the initial 'docker run...' comma
 
 * On Mac:
 
-`docker run -it --name=container_name v /Users/username/ppgdata:/ppgdata c851f55bb7f9 /bin/bash`
+`docker run -it --name=container_name -v /Users/username/ppgdata:/ppgdata c851f55bb7f9 /bin/bash`
 
 ...where '/home/username/ppgdata' or '/Users/username/ppgdata' is the host directory you want to 'share' with the conatiner (replace it with the directory you wish to use).
 
